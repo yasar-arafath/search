@@ -8,7 +8,7 @@
 
 * Once cloned,you can open the repository from any prefered code editer
 
-* Open Azure
+* Open Azure and follow the steps:
 STEP 1: An Azure Active Directory is created
 Step 2: An Azure Virtual Desktop is created under the Azure Active 
 Directory.
