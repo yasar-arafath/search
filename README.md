@@ -1,45 +1,28 @@
-# A privacy based virtual search engine
+# Privacy-Based Virtual Search Engine
 
-##[Go to live](https://yasar-arafath.github.io/search)
+## How to Use This Repository
 
-##How to use this repo?
+1. Clone the repository using the command: `git clone [repository-url]`
 
-* Clone the repository first 'git clone'
+2. Open the cloned repository in your preferred code editor.
 
-* Once cloned,you can open the repository from any prefered code editer
+3. Follow the steps below to set up and use the virtual search engine on Azure:
 
-* Open Azure and follow the steps:
-STEP 1: An Azure Active Directory is created
-Step 2: An Azure Virtual Desktop is created under the Azure Active 
-Directory.
-Virtual Desktops are VDI-based desktops with a unique set of 
-configuration and Operating Systems. These desktops are virtual 
-machines with dedicated resources, applications, and user settings.
-Step 3: A host pool is created inside the Azure Virtual Desktop and a
-session host is created in the host pool.
-Step 4: A virtual network and subnets is created for a private and secure 
-network for the session host.
-Step 5: A network security group and network interface is created with the 
-Inbound port rules to connect with the session host
-Step 6: Azure AD Domain Services is used to create an domain with Azure 
-for hosting the virtual machine.
-Step 7: An Azure storage disk is created with enough storage and capacity 
-inside the session host to run the applications.
-Step 8: An MSIX package of the application is uploaded to the session 
-host.
-A desktop application is created for the search engine and an MSIX 
-package is created.
-Step 9: The application is connected either using the RDP host or in the 
-web interface.
-Step 10: The application is accessed using the RDP host or through the 
-web interface and the queries are searched to crawl websites across the 
-web.
- 
-* search using the search engine!
+   - **Step 1:** Create an Azure Active Directory.
+   - **Step 2:** Create an Azure Virtual Desktop under the Azure Active Directory. Virtual Desktops are VDI-based desktops with a unique set of configurations and operating systems.
+   - **Step 3:** Create a host pool inside the Azure Virtual Desktop, and create a session host in the host pool.
+   - **Step 4:** Create a virtual network and subnets for a private and secure network for the session host.
+   - **Step 5:** Create a network security group and network interface with inbound port rules to connect with the session host.
+   - **Step 6:** Use Azure AD Domain Services to create a domain within Azure for hosting the virtual machine.
+   - **Step 7:** Create an Azure storage disk with sufficient storage and capacity inside the session host to run the applications.
+   - **Step 8:** Upload an MSIX package of the application to the session host. A desktop application is created for the search engine, and an MSIX package is generated.
+   - **Step 9:** Connect to the application either using the RDP host or through the web interface.
+   - **Step 10:** Access the application using the RDP host or the web interface, and use the search engine to query and crawl websites across the web.
 
-
-
+4. Start searching using the virtual search engine!
 
 ## License
-Copyright © 2022 yasar arafat. All Rights Reserved.
-License under the [MIT](License.txt) License.
+
+Copyright © 2022 Yasar Arafat. All Rights Reserved.
+
+Licensed under the [MIT License](License.txt).
